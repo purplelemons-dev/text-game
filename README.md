@@ -22,7 +22,7 @@ This is a basic text-based dungeon game with several types of data structures
 such as Items, Rooms, and Entities. Rooms are linked together by use of the
 adjacentRooms dictionary which translates the cardinal directions to Room objects.
 
-The [player](#player) can have a simple fight with an entity by using the combat() method.
+The [player](#player) can have a simple fight with an entity by using the `.combat()` method.
 
 
 ## World
@@ -86,4 +86,4 @@ things.
 
 This is where the game ends. The player can either die, win, or quit. Right now, the main
 loop checks for the player's health and handles keyboard interupts, but player health and
-winning can be moved to [`World`](#world).
+winning can be moved to [World](#world).
